@@ -8,6 +8,137 @@
     <meta name="description" content="[[ Brief about me here! ]]">
     <title>My Rocking Portfolio</title>
 
+    <style>
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/MTP_ySUJH_bn48VBG8sNSqRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 300;
+            src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxvR_54zmj3SbGZQh3vCOwvY.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 600;
+            src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxuw_rQOTGi-AJs5XCWaKIhU.woff) format('woff');
+        }
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
+            src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxhbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+        }
+
+        /* Move down content because we have a fixed navbar that is 50px tall */
+        body {
+            padding-top: 100px;
+            padding-bottom: 20px;
+        }
+
+        body.portfolio {
+            font-family: 'Open Sans', sans-serif;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        strong.name {
+            color: #D15400;
+            font-size: 24px;
+        }
+
+        .position {
+            font-size: 18px;
+        }
+
+        .col-md-4:hover {
+            /*font-size: 24px;*/
+            /*background-color: black;*/
+        }
+
+        a:hover {
+            cursor: pointer;
+            cursor: hand;
+        }
+
+        .navbar-inverse.portfolioNav {
+            height: 100px;
+        }
+
+        .navbar.portfolioNav {
+            height: 100px;
+        }
+
+        .navbar-inverse.portfolioNav {
+            background-color: #2f2f2f;
+        }
+
+        .proj-background {
+            background-color: #e0e0e0;
+            min-height: 300px;
+        }
+
+        .proj-img-container {
+            height: 150px;
+            width: 250px;
+            margin: auto;
+            padding-top: 80px;
+            margin-bottom: 10px;
+        }
+
+        .navbar-btn.portfolio {
+            font-weight: 600;
+            background-color: #2f2f2f;
+            color: #D15400;
+            border-color: #D15400;
+            width: 200px;
+            height: 60px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .btn-primary.portfolio {
+            font-weight: 600;
+            background-color: #2f2f2f;
+            color: #D15400;
+            border-color: #D15400;
+            width: 200px;
+            height: 60px;
+            font-size: 20px;
+            padding-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
     <!-- Custom styles for this template -->
     <link href="dist/css/print.css" rel="stylesheet" media="print">
     <link href="dist/css/4k.css" rel="stylesheet" media="only screen and (min-width: 3839px)">
